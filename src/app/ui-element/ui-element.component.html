@@ -1,0 +1,25 @@
+<h2>Using Mulitple @ViewChild</h2>
+<b>1. Number: </b>
+<button type="button" (click)="increase()">Increase</button>&nbsp;
+<button type="button" (click)="decrease()">Decrease</button>
+<br><br>
+<app-number></app-number>
+
+<b>2.Stopwatch </b><br><br>
+<button type="button" (click)="startStopwatch()">Start</button>&nbsp;
+<button type="button" (click)="stopStopwatch()">Stop</button>
+<br /><br>
+<app-stopwatch></app-stopwatch>
+
+<b>3. Color</b>
+<p cpColor>Change my color</p>
+<div>
+    Change Color:
+    <input type="radio" name="rad" (click)="changeColor('green')">Green
+    <input type="radio" name="rad" (click)="changeColor('red')">Red
+    <input type="radio" name="rad" (click)="changeColor('blue')">Blue
+</div>
+<br><hr>
+
+<b>4. Title: </b><input type="text" #title><br><br>
+<hr>
